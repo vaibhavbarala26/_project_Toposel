@@ -62,3 +62,15 @@ cd user-management-system
 ```bash
 npm install
 ```
+3.Create a .env file in the root directory:
+```bash
+PORT=3000
+MONGODB_URI=mongodb://localhost:27017/user-management
+JWT_SECRET=your-secret-key
+JWT_EXPIRES_IN=24h
+NODE_ENV=development
+```
+4.Start the server
+```bash
+npm start
+```
