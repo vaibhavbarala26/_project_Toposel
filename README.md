@@ -66,7 +66,7 @@ npm install
 ```bash
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/user-management
-JWT_SECRET=your-secret-key
+JWT_SECRET_KEY=your-secret-key
 JWT_EXPIRES_IN=24h
 NODE_ENV=development
 ```
